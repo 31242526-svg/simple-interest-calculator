@@ -211,6 +211,7 @@ simple-interest-calculator/
 ├── test_simple_interest.py    # unittest suite for the formula
 ├── screenshot.jpg             # the web version in action
 ├── README.md                  # this file
+├── LICENSE                    # Apache License 2.0
 └── .gitignore                 # Python bytecode and virtual environments
 ```
 
@@ -259,4 +260,9 @@ rounding to two decimal places.
 
 ## License
 
-Released under the MIT License. See the repository for details.
+Released under the **Apache License 2.0**. The full text is in the
+[`LICENSE`](LICENSE) file and covers definitions, the grant of copyright and patent
+licenses, redistribution, submission of contributions, trademarks, disclaimer of
+warranty, limitation of liability, and accepting warranty or additional liability.
+
+You may also read it at <https://www.apache.org/licenses/LICENSE-2.0>.
