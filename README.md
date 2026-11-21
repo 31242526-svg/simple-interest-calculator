@@ -24,6 +24,7 @@ Total     : 11,500.00
   - [Interactive](#interactive)
   - [Errors](#errors)
 - [Web version (HTML + JavaScript)](#web-version-html--javascript)
+- [Shell script](#shell-script)
 - [Project structure](#project-structure)
 - [How it works](#how-it-works)
 - [Running the tests](#running-the-tests)
@@ -204,12 +205,52 @@ then open `http://localhost:8000/`.
 The same worked example as above gives **1,500.00** interest and **11,500.00** in
 total, so both front ends agree.
 
+## Shell script
+
+`simple-interest.sh` is a Bash version of the same calculator, intended for terminals.
+It asks for the three values:
+
+```bash
+./simple-interest.sh
+```
+
+```
+Simple interest calculator
+
+Principal amount : 10000
+Annual rate (%)  : 5
+Time (years)     : 3
+
+Principal : 10,000.00
+Rate      : 5% per year
+Time      : 3 years
+Interest  : 1,500.00
+Total     : 11,500.00
+```
+
+You can also pass the values as arguments, which is handy for scripting:
+
+```bash
+./simple-interest.sh 10000 5 3
+./simple-interest.sh 2500 7.5 1.5
+```
+
+`--help` prints the usage. The script needs `bash` and `awk` (both standard on Linux
+and macOS, and included with Git Bash on Windows), and rejects anything that is not a
+number, a principal or time of zero, or a negative rate:
+
+```bash
+$ ./simple-interest.sh 0 5 3
+Error: principal and time must be greater than 0, and rate cannot be negative
+```
+
 ## Project structure
 
 ```
 simple-interest-calculator/
 ├── simple_interest.py         # the calculator (CLI + formula)
 ├── index.html                 # browser version (HTML + JavaScript)
+├── simple-interest.sh         # Bash version (interactive or with arguments)
 ├── test_simple_interest.py    # unittest suite for the formula
 ├── screenshot.jpg             # the web version in action
 ├── README.md                  # this file
