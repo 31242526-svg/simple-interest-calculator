@@ -27,6 +27,7 @@ Total     : 11,500.00
 - [Project structure](#project-structure)
 - [How it works](#how-it-works)
 - [Running the tests](#running-the-tests)
+- [Code of conduct](#code-of-conduct)
 - [License](#license)
 
 ## What it does
@@ -212,6 +213,7 @@ simple-interest-calculator/
 ├── screenshot.jpg             # the web version in action
 ├── README.md                  # this file
 ├── LICENSE                    # Apache License 2.0
+├── CODE_OF_CONDUCT.md         # Contributor Covenant 2.1
 └── .gitignore                 # Python bytecode and virtual environments
 ```
 
@@ -257,6 +259,17 @@ OK
 
 The suite covers whole numbers, a fractional rate, a fractional time, a zero rate, and
 rounding to two decimal places.
+
+## Code of conduct
+
+This project follows the [Contributor Covenant](https://www.contributor-covenant.org),
+version 2.1. The full text lives in [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) and
+covers Our Pledge, Our Standards, Enforcement Responsibilities, Scope, Enforcement,
+Enforcement Guidelines and Attribution.
+
+Report abusive, harassing or otherwise unacceptable behaviour to
+<31242526@vupune.ac.in>. All complaints are reviewed and investigated promptly and
+fairly, and the privacy of the reporter is respected.
 
 ## License
 
