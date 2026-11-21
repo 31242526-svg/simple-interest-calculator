@@ -28,6 +28,7 @@ Total     : 11,500.00
 - [How it works](#how-it-works)
 - [Running the tests](#running-the-tests)
 - [Code of conduct](#code-of-conduct)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## What it does
@@ -214,6 +215,7 @@ simple-interest-calculator/
 ├── README.md                  # this file
 ├── LICENSE                    # Apache License 2.0
 ├── CODE_OF_CONDUCT.md         # Contributor Covenant 2.1
+├── CONTRIBUTING.md            # how to contribute
 └── .gitignore                 # Python bytecode and virtual environments
 ```
 
@@ -270,6 +272,11 @@ Enforcement Guidelines and Attribution.
 Report abusive, harassing or otherwise unacceptable behaviour to
 <31242526@vupune.ac.in>. All complaints are reviewed and investigated promptly and
 fairly, and the privacy of the reporter is respected.
+
+## Contributing
+
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to report a
+bug, suggest an enhancement, improve the documentation or send a pull request.
 
 ## License
 
