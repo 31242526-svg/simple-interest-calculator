@@ -1,0 +1,5 @@
+$ git branch -a
+  bug-fix
+* main
+  remotes/origin/bug-fix
+  remotes/origin/main
